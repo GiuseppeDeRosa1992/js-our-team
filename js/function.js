@@ -1,8 +1,10 @@
 function printPage (name, job, img) {
     div.innerHTML += 
-    `<div class="card text-center p-2">
-        <h1>${name}</h1> 
-        <h2>${job}</h2>
-        <img src="../img/${img}">${img}</img>
+    `<div class="card text-center p-2 my-2">
+        <figure>
+            <img src="./img/${img}" class="w-25"></img>
+        </figure>
+        <h2>${name}</h2> 
+        <h3>${job}</h3>
     </div>`
 }
