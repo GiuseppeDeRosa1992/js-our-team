@@ -1,8 +1,7 @@
 console.log("Ciao Giuseppe")
 
-let h1 = document.querySelector("h1")
-let h2 = document.querySelector("h2")
-let h3 = document.querySelector("h3")
+let div = document.querySelector("#contenuto")
+
 
 //creo lista che contiene 6 oggetti con dentro ognuno delle caratteristiche diverse
 let arrayObjects = [
